@@ -1,2 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 
+// Customized css 
+@import './variables/variables';
+@import './footer/footer';
+@import './typography/typography';
+@import './navbar/navbar';
+
+// global style
+@import './global/global';

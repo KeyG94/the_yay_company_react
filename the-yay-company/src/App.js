@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import './scss/styles.scss';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
-import './scss/styles.scss';
 import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
 import News from './components/news/News';
@@ -13,31 +13,28 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
+
 function App() {
   return (
     <Router>
       <>
         <Navbar bg="light" expand="lg">
-          <Container fluid>
-            <Navbar.Brand href="#home">The Yay Company</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto">
-                <NavLink exact to="/" className="nav-link">Home</NavLink>
-                <NavLink to="/News" className="nav-link">News</NavLink>
-                <NavLink to="/Contact" className="nav-link">Contact</NavLink>
-              </Nav>
-              <Form inline>
-                <FormControl type="text" placeholder="Search" className="" />
-                <Button>Go</Button>
-              </Form>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      <Container fluid>
-        <div className="content">
-
-       
+              <Container className="container-body">
+                  <Navbar.Brand href="#home">The Yay Company</Navbar.Brand>
+                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                  <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className="mr-auto">
+                      <NavLink exact to="/" className="nav-link">Home</NavLink>
+                      <NavLink to="/News" className="nav-link">News</NavLink>
+                      <NavLink to="/Contact" className="nav-link">Contact</NavLink>
+                  </Nav>
+                  <Form inline>
+                      <FormControl type="text" placeholder="Search" />
+                      <Button>Go</Button>
+                  </Form>
+                  </Navbar.Collapse>
+              </Container>
+          </Navbar>
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
           <Switch>
@@ -51,11 +48,9 @@ function App() {
               <Home />
             </Route>
           </Switch>
-        </div>
-      </Container>
         {/* main content from components  */}
         <footer className="container__footer">
-          <Container fluid>
+          <Container>
               <Row>
                 <Col s={12} md={4} className="container__footer-left">
                   <span className="footer__item-center">

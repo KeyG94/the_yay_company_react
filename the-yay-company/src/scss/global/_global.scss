@@ -9,10 +9,14 @@ body{
     background: $background-gradient;
 }
 
-.btn-primary{
+.btn-custom_home{
     background-color: $primary-color;
     border: none;
     border-radius: 0;
+
+    &:hover{
+        background-color: $primary-color;
+    }
 
     @media screen and (max-width: 991px){
         width: 15% !important;
@@ -37,4 +41,3 @@ body{
 input:focus{
     outline: none !important;
 }
-

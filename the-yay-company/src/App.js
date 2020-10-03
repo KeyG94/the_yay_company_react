@@ -28,9 +28,9 @@ function App() {
                       <NavLink to="/News" className="nav-link">News</NavLink>
                       <NavLink to="/Contact" className="nav-link">Contact</NavLink>
                   </Nav>
-                  <Form inline>
+                  <Form inline className="mt-3 mb-2">
                       <FormControl type="text" placeholder="Search" />
-                      <Button>Go</Button>
+                      <Button className="btn-custom_home">Go</Button>
                   </Form>
                   </Navbar.Collapse>
               </Container>
@@ -54,8 +54,8 @@ function App() {
               <Row>
                 <Col s={12} md={4} className="container__footer-left">
                   <span className="footer__item-center">
-                    <i class="fab fa-vimeo-v"></i>
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-vimeo-v"></i>
+                    <i className="fab fa-youtube"></i>
                   </span>
                   
                 </Col>

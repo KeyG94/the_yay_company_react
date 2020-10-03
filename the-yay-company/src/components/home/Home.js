@@ -36,8 +36,8 @@ function Home() {
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                     <div className="mt-5">
                                         <span>SHARE</span>
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-facebook-f"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </div>
                                 </Col>
                             </Row>    
@@ -51,8 +51,8 @@ function Home() {
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                     <div className="mt-5">
                                         <span>SHARE</span>
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-facebook-f"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </div>
                                 </Col>
                             </Row>
@@ -66,8 +66,8 @@ function Home() {
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                     <div className="mt-5">
                                         <span>SHARE</span>
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-facebook-f"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </div>
                                 </Col>
                             </Row>  
@@ -95,8 +95,8 @@ function Home() {
                                     </Col>
                                     <Col className="mt-2 p-4 text-center social-media-icons">
                                         <span>SHARE</span>
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-facebook-f"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </Col>
                                 </Row>    
                             </Card.Body>
@@ -119,8 +119,8 @@ function Home() {
                                     </Col>
                                     <Col className="mt-2 p-4 text-center social-media-icons">
                                         <span>SHARE</span>
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-facebook-f"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </Col>
                                 </Row>  
                             </Card.Body>
@@ -143,8 +143,8 @@ function Home() {
                                     </Col>
                                     <Col className="mt-2 p-4 text-center social-media-icons">
                                         <span>SHARE</span>
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-facebook-f"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </Col>
                                 </Row>  
                             </Card.Body>

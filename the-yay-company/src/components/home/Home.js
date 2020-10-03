@@ -85,7 +85,7 @@ function Home() {
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="0">
-                            <Card.Body>
+                            <Card.Body className="accordion-custom">
                                 <Row>
                                     <Col sm={12} className="mb-4">
                                         Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
@@ -109,7 +109,7 @@ function Home() {
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="1">
-                            <Card.Body>
+                            <Card.Body className="accordion-custom">
                                 <Row>
                                     <Col sm={12} className="mb-4">
                                         Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
@@ -133,7 +133,7 @@ function Home() {
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="2">
-                            <Card.Body>
+                            <Card.Body className="accordion-custom">
                                 <Row>
                                     <Col sm={12} className="mb-4">
                                         Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.

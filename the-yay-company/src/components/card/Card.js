@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 function CardBody() { 
 
     return (
-        <Card.Body style={{ border='none'}}>
+        <Card.Body className="bg-white">
             <Card.Title>Nunc porttitor vel</Card.Title>
             <Card.Text>
             Nunc malesuada eget est fringilla dapibus.

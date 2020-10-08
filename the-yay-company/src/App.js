@@ -29,7 +29,7 @@ function App() {
                       <NavLink to="/Contact" className="nav-link">Contact</NavLink>
                   </Nav>
                   <Form inline className="mt-3 mb-2">
-                      <FormControl type="text" placeholder="Search" />
+                      <FormControl type="text" placeholder="Search" className="navigation-search-bar"/>
                       <Button className="btn-custom_home">Go</Button>
                   </Form>
                   </Navbar.Collapse>

@@ -32,10 +32,6 @@ body{
     &:focus{
         outline: none;
     }
-
-    @media screen and (max-width: 991px){
-        width: 85% !important;
-    }
 }
 
 input:focus{

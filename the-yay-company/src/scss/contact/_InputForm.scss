@@ -1,0 +1,56 @@
+.form-container__custom {
+    background-color: $navbar-color;
+}
+
+.input-form-btn{
+    width: 100%;
+    background-color: $footer-text;
+    outline:none;
+    border:none;
+}
+
+.form-group{
+    color: $footer-text;
+    font-family: $link;
+}
+
+.input-group-text{
+    background-color: #c7c7c7;
+    border: none;
+    color: white;
+    padding: .8em;
+}
+
+input[type=checkbox] + label{
+    display: block;
+}
+
+input[type=checkbox]{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    z-index: 1;
+    opacity: 0;
+}
+
+input[type=checkbox] + label:before{
+    content: " \2714";
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+    height: 42px;
+    width: 42px;
+    padding: 0 8px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: $primary-color;
+    color: transparent;
+    font-size: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+input[type=checkbox]:checked + label:before{
+    color: white;
+}

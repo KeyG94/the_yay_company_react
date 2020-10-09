@@ -16,7 +16,6 @@ function Home() {
     return (
         <>
             <Jumbotron fluid className="pt-0 pb-0 mb-10">
-                
                {/* <Image src={imageHeader} alt="image header of multiple tv's" fluid className="p-0 m-0 "/> */}
             </Jumbotron>
             <Container>
@@ -25,9 +24,9 @@ function Home() {
                     <p>Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa.
                     </p>
                 </main>
-                <div className="d-none d-lg-block mb-6">
-                    <Tabs defaultActiveKey="home">
-                        <Tab eventKey="home" title="Home" className="custom-tab shadow">
+                <div className="d-none d-lg-block mb-6 custom-tab">
+                    <Tabs defaultActiveKey="first">
+                        <Tab eventKey="first" title="First" className="shadow">
                             <Row className="p-5 bg-white row-radius">
                                 <Col lg={4} className="justify-content-center">
                                 <Image src={imageTab1} fluid className="accordion-image"/>
@@ -42,7 +41,7 @@ function Home() {
                                 </Col>
                             </Row>    
                         </Tab>
-                        <Tab eventKey="profile" title="Profile" className="custom-tab">
+                        <Tab eventKey="second" title="Second" className="custom-tab">
                         <Row className="p-5 bg-white row-radius">
                                 <Col lg={4} className="justify-content-center">
                                 <img src="https://images.unsplash.com/photo-1598769569852-88a6bdb1b4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80" fluid className="accordion-image"/>
@@ -57,7 +56,7 @@ function Home() {
                                 </Col>
                             </Row>
                         </Tab>
-                        <Tab eventKey="contact" title="Contact" className="custom-tab">
+                        <Tab eventKey="third" title="Third" className="custom-tab">
                         <Row className="p-5 bg-white row-radius">
                                 <Col lg={4} className="justify-content-center">
                                 <img src="https://images.unsplash.com/photo-1562313513-efd92b16d3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" fluid className="accordion-image"/>

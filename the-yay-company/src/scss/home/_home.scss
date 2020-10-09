@@ -28,9 +28,17 @@
 }
 
 .nav-tabs .active{
-   padding: 0 2em !important;
-   margin-left: -16px;
    color: $footer-text !important;
+}
+
+.custom-tab a{
+    padding: 1em 2em;
+    margin-left: -15px;
+}
+
+.custom-tab .active{
+    border-radius: 10px 10px 0 0 ;
+    border: none;
 }
 
 .jumbotron {

@@ -31,7 +31,7 @@ function InputForm() {
 
                 <Form.Group>
                     <Form.Label controlId="formMessage">Message</Form.Label>
-                    <Form.Control as="textarea" rows="5" className="form-input__custom p-4"/>
+                    <Form.Control as="textarea" rows="5" maxlength="500" className="form-input__custom p-4"/>
                 </Form.Group>
 
                 <Form.Group controlId="formBasicCheckbox">
@@ -43,8 +43,9 @@ function InputForm() {
                         />
                     <label
                     for="rights"
-                    className="form-checbox__label">Allow us to sell your personal details to whomever we want.</label>
+                    className="form-checbox__label"></label>
                 </Form.Group>
+                <span className="label-checkbox">Allow us to sell your personal details to whomever we want.</span>
 
                 <Button variant="primary" type="submit" className="input-form-btn p-2 mt-2 mb-2">
                     Submit

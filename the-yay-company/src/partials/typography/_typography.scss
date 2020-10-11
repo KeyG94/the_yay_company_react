@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+// Header 
+$logo: 'Playfair Display', serif;
+$link: 'Lato', sans-serif;
+
+// header tags
+
+h1, h2 {
+    color: $primary-color;
+    font-family: $logo;
+    font-size: 34px;
+}
+
+h3 {
+    color: $primary-color;
+    font-family: $link;
+    font-size: 16px;
+}
+
+p{
+    font-family: $link;
+    font-size: 16px;
+    color: $footer-text;
+}

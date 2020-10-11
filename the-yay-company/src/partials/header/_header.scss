@@ -1,0 +1,10 @@
+.carousel-indicators li{
+    height: 30px !important;
+    margin: 0 10px;
+    background-color: white;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active{
+    background-color: $primary-color;
+}

@@ -1,0 +1,53 @@
+.show{
+    color: $footer-text ;
+}
+
+.card-header{
+    background-color: $background-footer;
+}
+
+.accordion-custom{
+    background: $background-gradient !important;
+    border-top: 1px solid $primary-color;
+}
+
+.accordion-image{
+    width: 100%;
+}
+.nav-tabs a{
+    color: $primary-color;
+}
+
+.row-radius{
+    border-radius: 0 10px 10px 10px;
+}
+
+.social-media-icons{
+    color: black;
+    cursor: pointer;
+}
+
+.nav-tabs .active{
+   color: $footer-text !important;
+}
+
+.custom-tab a{
+    padding: 1em 2em;
+    margin-left: -15px;
+}
+
+.custom-tab .active{
+    border-radius: 10px 10px 0 0 ;
+    border: none;
+}
+
+.jumbotron {
+    width: 100vw;
+    background: url('../../components/home/images/tvHeader.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    max-height: 40vh;
+}
+

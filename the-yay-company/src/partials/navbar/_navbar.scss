@@ -1,0 +1,34 @@
+.navbar{
+    background-color: $navbar-color !important;
+}
+
+.navbar-brand{
+    font-family: $logo;
+    font-weight: 700;
+    font-style: italic;
+    color: $primary-color !important;
+}
+
+.nav-link{
+    font-family: $link;
+    padding: .2em;
+    margin: .5em;
+
+    
+
+    &:hover,&.active{
+        background-color: white;
+    }
+
+    @media screen and (max-width: 991px){
+            margin: 0 -14px 0 -14px;
+            padding: 1em !important;
+    }
+
+}
+
+.navigation-search-bar{
+    @media screen and (max-width: 991px){
+        width: 85% !important;
+    }
+}

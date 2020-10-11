@@ -1,0 +1,25 @@
+.btn-custom_cards{
+    width: 100%;
+    border: none;
+
+    @media screen and (min-width: 992px){
+        background-image: linear-gradient(90deg,
+            $footer-text 0%,
+            $footer-text 50%,
+            $primary-color 50%,
+            $primary-color 100%);
+        background-size: 270%;
+        transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
+        color .2s linear;
+        transition-delay: 0.0s, 0.15s;
+        
+        &:hover{
+            background-position: -50% 200%;
+            background-color: $primary-color;
+        }
+    }
+
+    @media screen and (max-width: 991px){
+        background-color: $primary-color;
+    }
+}

@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Customized css 
+@import './variables/variables';
+@import './footer/footer';
+@import './typography/typography';
+@import './navbar/navbar';
+@import './home/home';
+@import './news/news';
+@import './contact/InputForm';
+@import './contact/list';
+@import './header/header';
+
+@import '../components/card/cardButton';
+
+
+// global style
+@import './global/global';

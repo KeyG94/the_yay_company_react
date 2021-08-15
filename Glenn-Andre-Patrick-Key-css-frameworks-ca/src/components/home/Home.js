@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import CarouselHeader from './elements/CarouselHeader';
 import Image from 'react-bootstrap/Image';
 import imageTab1 from './images/tab-image1.png';
 import Accordion from 'react-bootstrap/Accordion';
@@ -15,12 +15,10 @@ import Tab from 'react-bootstrap/Tab';
 function Home() {
     return (
         <>
-            <Jumbotron fluid className="pt-0 pb-0 mb-10">
-               {/* <Image src={imageHeader} alt="image header of multiple tv's" fluid className="p-0 m-0 "/> */}
-            </Jumbotron>
+            <CarouselHeader />
             <Container>
-                <main>
-                    <h1 className="">We do YAY things</h1>
+                <main className="mt-5">
+                    <h1>We do YAY things</h1>
                     <p>Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa.
                     </p>
                 </main>

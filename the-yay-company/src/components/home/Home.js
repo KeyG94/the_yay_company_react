@@ -52,7 +52,7 @@ const Home = () => {
             <Tab eventKey="second" title="Second" className="custom-tab">
               <Row className="p-5 bg-white row-radius">
                 <Col lg={4} className="justify-content-center">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1598769569852-88a6bdb1b4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80"
                     fluid
                     className="accordion-image"
@@ -77,7 +77,7 @@ const Home = () => {
             <Tab eventKey="third" title="Third" className="custom-tab">
               <Row className="p-5 bg-white row-radius">
                 <Col lg={4} className="justify-content-center">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1562313513-efd92b16d3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
                     fluid
                     className="accordion-image"
@@ -105,14 +105,13 @@ const Home = () => {
         {/* Hide on larger screens  */}
 
         <Accordion defaultActiveKey="0" className="d-lg-none shadow">
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                <h3>First</h3>
-              </Accordion.Toggle>
-            </Card.Header>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              <h3>First</h3>
+            </Accordion.Header>
+
             <Accordion.Collapse eventKey="0">
-              <Card.Body className="accordion-custom">
+              <Accordion.Body className="accordion-custom">
                 <Row>
                   <Col sm={12} className="mb-4">
                     Morbi eget efficitur turpis. Vivamus pellentesque tortor
@@ -134,9 +133,9 @@ const Home = () => {
                     <i className="fab fa-twitter"></i>
                   </Col>
                 </Row>
-              </Card.Body>
+              </Accordion.Body>
             </Accordion.Collapse>
-          </Card>
+          </Accordion.Item>
           <Card>
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="1">
@@ -153,7 +152,7 @@ const Home = () => {
                     non maximus. Sed condimentum mattis rhoncus.
                   </Col>
                   <Col sm={12} className="d-flex justify-content-center">
-                    <img
+                    <Image
                       src="https://images.unsplash.com/photo-1598769569852-88a6bdb1b4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80"
                       fluid
                       className="accordion-image"
@@ -185,7 +184,7 @@ const Home = () => {
                     non maximus. Sed condimentum mattis rhoncus.
                   </Col>
                   <Col sm={12} className="d-flex justify-content-center">
-                    <img
+                    <Image
                       src="https://images.unsplash.com/photo-1562313513-efd92b16d3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
                       fluid
                       className="accordion-image"
